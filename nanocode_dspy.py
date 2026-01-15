@@ -152,7 +152,7 @@ class CodingAssistant(dspy.Signature):
     task: str = dspy.InputField(desc="The user's coding task or question")
     answer: str = dspy.OutputField(desc="Your response to the user after completing the task")
 
-# Create ReAct agent with tools
+# ReAct agent with tools
 
 tools = [read_file, write_file, edit_file, glob_files, grep_files, run_bash]
 
