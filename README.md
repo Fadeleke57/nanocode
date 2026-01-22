@@ -4,7 +4,7 @@ Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lin
 
 Built using Claude Code, then used to build itself.
 
-![screenshot](screenshot.png)
+![screenshot](https://d1pz4mbco29rws.cloudfront.net/public/nanocode.png)
 
 ## Features
 
@@ -17,7 +17,7 @@ Built using Claude Code, then used to build itself.
 
 ```bash
 export ANTHROPIC_API_KEY="your-key"
-python nanocode_dspy.py
+python nanocode.py
 ```
 
 ### OpenRouter
@@ -26,7 +26,7 @@ Use [OpenRouter](https://openrouter.ai) to access any model:
 
 ```bash
 export OPENROUTER_API_KEY="your-key"
-python nanocode_dspy.py
+python nanocode.py
 ```
 
 To use a different model:
@@ -34,7 +34,7 @@ To use a different model:
 ```bash
 export OPENROUTER_API_KEY="your-key"
 export MODEL="openai/gpt-5.2"
-python nanocode_dspy.py
+python nanocode.py
 ```
 
 ## Commands
@@ -61,9 +61,9 @@ python nanocode_dspy.py
 ────────────────────────────────────────
 
 ⏺ Glob(**/*.py)
-  ⎿  nanocode_dspy.py
+  ⎿  nanocode.py
 
-⏺ There's one Python file: nanocode_dspy.py
+⏺ There's one Python file: nanocode.py
 ```
 
 ## License

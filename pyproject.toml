@@ -5,6 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "dspy>=3.1.0",
-    "modaic>=0.10.0",
+    "dspy>=3.1.2",
+    "modaic>=0.10.3",
 ]
